@@ -20,7 +20,7 @@ my Pipe line
 
 
 
-![alt text][Finding-Lane-Lines-on-the-Road/test_images/Output.png]
+![alt text][test_images/Output.png]
 
 ### 2. potential shortcomings
 
