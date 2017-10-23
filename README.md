@@ -20,7 +20,7 @@ my Pipe line
 
 
 
-![alt text][./test_images/Output.png]
+![alt text][https://github.com/KarimDahawy/Finding-Lane-Lines-on-the-Road/blob/master/test_images/Output.png]
 
 ### 2. potential shortcomings
 
