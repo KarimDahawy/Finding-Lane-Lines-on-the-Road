@@ -13,7 +13,7 @@ The Purpose of this project is to detect the lane lines on the road by creating 
 
 ### 1. Desciption of Pipeline
 
-My pipeline consists of steps as follows:
+**My pipeline consists of 6 steps as follows:**
 
     1. Convert detected image into gray scale.
 
@@ -21,10 +21,21 @@ My pipeline consists of steps as follows:
 
     3. Apply Canny Edge Detection on the filtered image with a defined low and high threshold using a 1:2 ratio.
 
-    4. 
+    4. Define a four sided polygon in order to mark our region of interest.
+    
+    5. Apply the hough transform algorithm on the selected region of interest.
+    
+    6. Draw the filtered lines on the color image.
+
+**In order to draw a single line on the left and right lanes**:
+
+I modified the draw_lines() function as follows:
+
+    1. 
 
 
-**The following image identifies how the pipelines works on 6 different images:**
+
+**The following image defines the output of the pipeline algorithm on 6 different images:**
 
 ![alt text](https://github.com/KarimDahawy/Finding-Lane-Lines-on-the-Road/blob/master/test_images/Output.png)
 
