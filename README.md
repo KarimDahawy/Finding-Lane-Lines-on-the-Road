@@ -15,18 +15,18 @@ The Purpose of this project is to detect the lane lines on the road by creating 
 
 My pipeline consists of steps as follows:
 
-1. Convert detected image into gray scale.
+    1. Convert detected image into gray scale.
 
-2. Apply Gaussian Blur filter in order to smooth the image.
+    2. Apply Gaussian Blur filter in order to smooth the image.
 
-3. Apply Canny Edge Detection on the filtered image with a defined low and high threshold using a 1:2 ratio.
+    3. Apply Canny Edge Detection on the filtered image with a defined low and high threshold using a 1:2 ratio.
 
-4. 
+    4. 
 
 
 **The following image identifies how the pipelines works on 6 different images:**
 
-![alt text][image1]
+![alt text](https://github.com/KarimDahawy/Finding-Lane-Lines-on-the-Road/blob/master/test_images/Output.png)
 
 ### 2. potential shortcomings
 
