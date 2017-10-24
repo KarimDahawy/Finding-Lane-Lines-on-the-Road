@@ -41,8 +41,17 @@ I modified the draw_lines() function as follows:
 
 ### 2. potential shortcomings
 
+One potential shortcoming would be what would happen when the intensity of the line
 
+Another potential shortcoming is the detection of the curved lines as seen in the challenge video as the filtered lines wasn't stable due to the high slope in lines.
 
 
 
 ### 3. possible improvements
+
+A possible improvement would be to modify the algorithm to detect the 
+
+Another possible improvement is to use another method to detect curved lines like using curve.fit() 
+
+
+
