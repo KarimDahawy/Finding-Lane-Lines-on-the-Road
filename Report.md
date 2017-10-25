@@ -1,12 +1,10 @@
 # **Finding Lane Lines on the Road** 
----
-
+------------------------------------
 
 ## Project
----
-
+----------
 ### 1. Desciption of Pipeline
-
+-----------------------------
 **My pipeline consists of 6 steps as follows:**
 
     1. Convert detected image into gray scale.
@@ -34,15 +32,17 @@ I modified the draw_lines() function as follows:
 ![alt text](https://github.com/KarimDahawy/Finding-Lane-Lines-on-the-Road/blob/master/test_images/Output.png)
 
 ### 2. potential shortcomings
-
-One potential shortcoming would be what would happen when the intensity of the line
+-----------------------------
+One potential shortcoming would be the disappearnce of the lines in dark spots which we can notice in the challenge video as due to the shadow of the trees over the left and right lanes the detected lines weren't accurate.
 
 Another potential shortcoming is the detection of the curved lines as seen in the challenge video as the filtered lines wasn't stable due to the high slope in lines.
 
 
-
 ### 3. possible improvements
-
-A possible improvement would be to modify the algorithm to detect the 
+----------------------------
+A possible improvement would be to modify the algorithm to detect the intensity of detected lines and merge the low intensity lines with high intensity ones.
 
 Another possible improvement is to use another method to detect curved lines like using curve.fit() 
+
+
+
