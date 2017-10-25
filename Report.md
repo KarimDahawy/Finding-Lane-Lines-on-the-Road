@@ -20,9 +20,10 @@
 
 I modified the draw_lines() function as follows:
 
-    1. 
-
-
+    1. Define average slope for right and left lines with defined threshold.
+    2. Filter right and left lines based on their slopes and merge them in arrays that contain all the filtered lines only.
+    3. The filtered lines are used to get the corresponding coefficients, so we will be able to use them in calculating the extrapolated points.
+    4. Use the calculated extrapolated points to draw the corresponding lines and merge them with the previous ones in order to have the output video stream.
 
 **The following image defines the output of the pipeline algorithm on 6 different images:**
 
@@ -39,7 +40,4 @@ Another potential shortcoming is the detection of the curved lines as seen in th
 ----------------------------
 A possible improvement would be to modify the algorithm to detect the intensity of detected lines and merge the low intensity lines with high intensity ones.
 
-Another possible improvement is to use another method to detect curved lines like using curve.fit() 
-
-
-
+Another possible improvement is to use another method to detect curved lines like using curve.fit().
