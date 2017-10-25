@@ -1,8 +1,5 @@
 # **Finding Lane Lines on the Road** 
 ------------------------------------
-
-## Project
-----------
 ### 1. Desciption of Pipeline
 -----------------------------
 **My pipeline consists of 6 steps as follows:**
